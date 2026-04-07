@@ -2,16 +2,18 @@
 
 # Resonate Server
 
-[![ci](https://github.com/resonatehq/resonate/actions/workflows/cicd.yaml/badge.svg)](https://github.com/resonatehq/resonate/actions/workflows/cicd.yaml)
-[![dst](https://github.com/resonatehq/resonate/actions/workflows/dst.yaml/badge.svg)](https://github.com/resonatehq/resonate/actions/workflows/dst.yaml)
-[![Go Report Card](https://goreportcard.com/badge/github.com/resonatehq/resonate)](https://goreportcard.com/report/github.com/resonatehq/resonate)
+> [!WARNING]
+> **This repository is deprecated as of v0.8.2.** This project has moved to [resonatehq/resonate](https://github.com/resonatehq/resonate). Please use the new repository going forward. This repo is no longer actively maintained.
+
+[![ci](https://github.com/resonatehq/resonate-legacy-server/actions/workflows/cicd.yaml/badge.svg)](https://github.com/resonatehq/resonate-legacy-server/actions/workflows/cicd.yaml)
+[![dst](https://github.com/resonatehq/resonate-legacy-server/actions/workflows/dst.yaml/badge.svg)](https://github.com/resonatehq/resonate-legacy-server/actions/workflows/dst.yaml)
+[![Go Report Card](https://goreportcard.com/badge/github.com/resonatehq/resonate-legacy-server)](https://goreportcard.com/report/github.com/resonatehq/resonate-legacy-server)
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 ## About this component
 
 The Resonate Server is a highly efficient single binary that pairs with a Resonate SDK to bring durable execution to your application — reliable, distributed function execution that survives process restarts and failures. It acts as both a supervisor and orchestrator for Resonate Workers, persisting execution state so long-running functions always run to completion.
 
-- [How to contribute to this repo](./CONTRIBUTING.md)
 - [Evaluate Resonate for your next project](https://docs.resonatehq.io/evaluate/)
 - [Example application library](https://github.com/resonatehq-examples)
 - [The concepts that power Resonate](https://www.distributed-async-await.io/)
